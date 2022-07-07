@@ -1,0 +1,23 @@
+{
+  "name": "ytstreamthing",
+  "version": "1.0.0",
+  "description": "This project is intended to be a nodeJS + REACT project. Here is what I need (in order)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gskapoor/ytStreamthing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gskapoor/ytStreamthing/issues"
+  },
+  "homepage": "https://github.com/gskapoor/ytStreamthing#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
