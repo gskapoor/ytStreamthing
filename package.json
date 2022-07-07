@@ -4,7 +4,8 @@
   "description": "This project is intended to be a nodeJS + REACT project. Here is what I need (in order)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/gskapoor/ytStreamthing#readme",
   "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "google-auth-library": "^8.1.0",
+    "googleapis": "^105.0.0"
   }
 }
