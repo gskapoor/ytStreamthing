@@ -1,6 +1,6 @@
 import {ytAPI} from './api_auth/quickstart.js'
 
-console.log("amogus")
 
+ytAPI.authorize(function(s: any) {console.log(s);});
 
 
