@@ -13,7 +13,7 @@ var TOKEN_PATH = TOKEN_DIR + 'youtube-nodejs-quickstart.json';
 
 
 
-export class ytAPI{
+export class authAPI{
   
 
   static storeToken(token) {

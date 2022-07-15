@@ -1,6 +1,6 @@
-import {ytAPI} from './api_auth/quickstart.js'
+import {authAPI} from './api_auth/authAPI.js'
 
 
-ytAPI.authorize(function(s: any) {console.log(s);});
+authAPI.authorize(function(s: any) {console.log(s);});
 
 
